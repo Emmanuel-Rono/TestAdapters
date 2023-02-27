@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/isaka_cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:elevation="12dp"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/crop_isaka_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/isaka2" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/crop_isaka_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="cursive"
+            android:text="@string/isaka"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crop_kunde_cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:elevation="12dp"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/crop_kunde_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kunde" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/crop_Kunde_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="cursive"
+            android:text="@string/isaka"
+            android:textColor="@color/black"
+            android:textSize="20sp"></TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crop_mrenda_cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:elevation="12dp"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/crop_mrenda_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mrenda" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/crop_mrenda_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="cursive"
+            android:text="@string/mrenda"
+            android:textColor="@color/black"
+            android:textSize="20sp"></TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crop_managu_cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:elevation="12dp"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/crop_managu_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/managu" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/crop_managu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="cursive"
+            android:text="@string/managu"
+            android:textColor="@color/black"
+            android:textSize="20sp"></TextView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
